@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav{
+    background-color: aqua;
+}
+
+.section{
+    display: flex;
+    padding: 16px 40px;
+}
+
+.section img{
+    width: 50vw;
+    margin-right: 24px;
+}
+
+.content{
+    margin-left: 24px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h6{
+    font-size: 25px;
+    margin-bottom: 38px;
+}
+
+.content p {
+    font-size: 16px;
+}
